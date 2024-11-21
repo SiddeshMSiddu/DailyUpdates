@@ -217,15 +217,14 @@
 
 // console.log(count==a.length? "annagram":"not annagram")
 
-// function findIntersection(arr1, arr2) {
-//     let intersection = []; // Array to store common elements
 
-//     // Iterate through the first array
+// INTERSCTION OF ARRAY
+// function findIntersection(arr1, arr2) {
+//     let intersection = []; 
+
 //     for (let i = 0; i < arr1.length; i++) {
-//         // Check if the current element exists in the second array
 //         for (let j = 0; j < arr2.length; j++) {
 //             if (arr1[i] === arr2[j]) {
-//                 // Check if the element is already in the result array
 //                 let alreadyExists = false;
 //                 for (let k = 0; k < intersection.length; k++) {
 //                     if (intersection[k] === arr1[i]) {
@@ -233,7 +232,6 @@
 //                         break;
 //                     }
 //                 }
-//                 // Add to the intersection array if not already present
 //                 if (!alreadyExists) {
 //                     intersection.push(arr1[i]);
 //                 }
@@ -243,11 +241,9 @@
 
 //     return intersection;
 // }
-
-// // Example usage
 // let array1 = [1, 2, 3, 4, 5];
 // let array2 = [3, 4, 5, 6, 7];
-// console.log(findIntersection(array1, array2)); // Output: [3, 4, 5]
+// console.log(findIntersection(array1, array2)); 
 
 
 // Intersection of an array
