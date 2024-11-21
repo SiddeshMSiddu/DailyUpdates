@@ -14,3 +14,8 @@ function calci(oper1,op,oper2){
 }
 
 calci(10,'/',2);
+calci(10,'+',2);
+calci(10,'*',2);
+calci(10,'-',2);
+calci(10,'%',2);
+calci(10,'%',3);
