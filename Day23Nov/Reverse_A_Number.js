@@ -8,3 +8,5 @@ function reverse(num){
     return rev
 }
 console.log(reverse(625));
+console.log(reverse(2445425298));
+
