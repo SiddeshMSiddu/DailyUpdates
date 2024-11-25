@@ -1,3 +1,4 @@
+// A Harshad Number is a number divisible by the sum of its digits.
 function HarshedNum(num){
     let sum=0;
     let temp=num;
