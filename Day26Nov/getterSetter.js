@@ -17,7 +17,7 @@ class Person {
   }
 
   set age(value) {
-    if (value < 0) {
+    if (value <= 0) {
       console.log("Age cannot be negative");
     } else {
       this._age = value;
@@ -31,5 +31,5 @@ person.name = "Krishna";
 console.log(person.name);  
 
 console.log(person.age);   
-person.age = -5;           
+person.age = -1;           
 console.log(person.age);   
